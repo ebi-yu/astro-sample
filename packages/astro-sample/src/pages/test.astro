@@ -1,0 +1,10 @@
+---
+import Sample from "../components/vue/Sample.vue";
+
+const items = ["dog", "cat", "bird"];
+---
+
+<Sample />
+<ul>
+  {items.map((item) => <li>{item}</li>)}
+</ul>
