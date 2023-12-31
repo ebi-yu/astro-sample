@@ -1,10 +1,12 @@
 ---
-import Sample from "../components/vue/Sample.vue";
+import SampleVue from "../components/vue/Sample.vue";
+import SampleReact from "../components/react/Sample";
 
 const items = ["dog", "cat", "bird"];
 ---
 
-<Sample />
+<SampleVue />
+<SampleReact />
 <ul>
   {items.map((item) => <li>{item}</li>)}
 </ul>
